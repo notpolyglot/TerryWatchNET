@@ -11,7 +11,7 @@ public static class TerryWatch
     public static TerryWatchClient Init(
         string apiKey,
         string appId,
-        string baseUrl = "http://localhost:8000",
+        string baseUrl = "https://terrywatch.net",
         HttpClient? httpClient = null)
     {
         return new TerryWatchClient(
@@ -30,7 +30,7 @@ public static class Terrywatch
     public static TerryWatchClient Init(
         string apiKey,
         string appId,
-        string baseUrl = "http://localhost:8000",
+        string baseUrl = "https://terrywatch.net",
         HttpClient? httpClient = null)
     {
         return TerryWatch.Init(apiKey, appId, baseUrl, httpClient);
